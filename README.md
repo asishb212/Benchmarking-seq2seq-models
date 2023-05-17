@@ -44,7 +44,7 @@ Notebooks
 <p>Weights :</p> 
 <p>Luong RNN and LSTM https://drive.google.com/drive/folders/1hA38AQya6qxmo-J-AWBse8l-US2J6dga?usp=share_link</p> 
 <p>Bahdanau RNN : https://drive.google.com/drive/folders/1Fh8fkSzeEbT4u7t9mwgdDSMgOwasQiXS?usp=share_link</p>
-<p>Luong LSTM : https://drive.google.com/drive/folders/1h_an4_usdrsGE8ON7Q1MC59Tbx5MQnZC?usp=share_link</p>
+<p>Luong GRU : https://drive.google.com/drive/folders/1h_an4_usdrsGE8ON7Q1MC59Tbx5MQnZC?usp=share_link</p>
 
 ```
 Run Bahdanau_LSTM.ipnyb for Bahdanau attention and LSTM architecture

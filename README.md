@@ -10,6 +10,11 @@
 	
   For the six RNNs, we have used wandb, an online weights and biases platform, to optimize for hyper-parameters such as learning rate, clip, decoder learning ratio, type of optimizer, and the teacher forcing ratio. We au-tomated the task of training the models for 15 epochs under all the allowed permutations of the hyper-parameters and selected the ones with the lowest loss as the optimal set. The loss is calculated through a blank function assuming blank. The optimal RNN models were then tested and benchmarked along with the transformer on their testing and validation loss and accuracy, along with an evaluation of performance on the same input sentences.
 
+# Collaborators
+##### Anirudh Vaidhyanathan Iyer (avi2011)
+##### Asish Boggavarapu (ab10535)
+##### Vinayak Srivastava (ab10535)
+
 # Repository structure
  
 ```
@@ -32,6 +37,14 @@ Notebooks
 ```
 
 ## Training
+
+<p>Dataset:</p>
+<p>Load the dataset from here https://drive.google.com/drive/folders/1hA38AQya6qxmo-J-AWBse8l-US2J6dga?usp=share_link</p>
+
+<p>Weights :</p> 
+<p>Luong RNN and LSTM https://drive.google.com/drive/folders/1hA38AQya6qxmo-J-AWBse8l-US2J6dga?usp=share_link</p> 
+<p>Bahdanau RNN : https://drive.google.com/drive/folders/1Fh8fkSzeEbT4u7t9mwgdDSMgOwasQiXS?usp=share_link</p>
+<p>Luong LSTM : https://drive.google.com/drive/folders/1h_an4_usdrsGE8ON7Q1MC59Tbx5MQnZC?usp=share_link</p>
 
 ```
 Run Bahdanau_LSTM.ipnyb for Bahdanau attention and LSTM architecture

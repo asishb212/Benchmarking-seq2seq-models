@@ -9,3 +9,36 @@
 
 	
   For the six RNNs, we have used wandb, an online weights and biases platform, to optimize for hyper-parameters such as learning rate, clip, decoder learning ratio, type of optimizer, and the teacher forcing ratio. We au-tomated the task of training the models for 15 epochs under all the allowed permutations of the hyper-parameters and selected the ones with the lowest loss as the optimal set. The loss is calculated through a blank function assuming blank. The optimal RNN models were then tested and benchmarked along with the transformer on their testing and validation loss and accuracy, along with an evaluation of performance on the same input sentences.
+
+# Repository structure
+ 
+```
+Notebooks
+   |-- Bahdanau_LSTM.ipnyb
+   |-- Bahdanau_GRU.ipnyb
+   |-- Bahdanau_RNN.ipnyb
+   |-- Luong_LSTM.ipnyb
+   |-- Luong_GRU.ipnyb
+   |-- Luong_RNN.ipnyb
+   |-- Transformer.ipnyb
+ ```
+ 
+# Instructions to run
+ 
+## Requirements
+
+```
+!pip install -r requirements.txt
+```
+
+## Training
+
+```
+Run Bahdanau_LSTM.ipnyb for Bahdanau attention and LSTM architecture
+Run Bahdanau_GRU.ipnyb for Bahdanau attention and GRU architecture
+Run Bahdanau_RNN.ipnyb for Bahdanau attention and RNN architecture
+Run Luong_LSTM.ipnyb for Bahdanau attention and LSTM architecture
+Run Luong_GRU.ipnyb for Bahdanau attention and GRU architecture
+Run Luong_RNN.ipnyb for Bahdanau attention and RNN architecture
+```
+ 
